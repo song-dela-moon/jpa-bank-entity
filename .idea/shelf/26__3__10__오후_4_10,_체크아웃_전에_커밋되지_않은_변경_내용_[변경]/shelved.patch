@@ -1,0 +1,98 @@
+Index: jpa-bank-entity/src/test/java/jpa/practice/AppTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jpa.practice;\n\nimport org.junit.jupiter.api.Test;\nimport static org.junit.jupiter.api.Assertions.assertTrue;\n\n/**\n * Unit test for simple App.\n */\npublic class AppTest \n{\n    /**\n     * Rigorous Test :-)\n     */\n    @Test\n    public void testApp()\n    {\n        assertTrue( true );\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/jpa-bank-entity/src/test/java/jpa/practice/AppTest.java b/jpa-bank-entity/src/test/java/jpa/practice/AppTest.java
+--- a/jpa-bank-entity/src/test/java/jpa/practice/AppTest.java	(revision c3f0169668b6f66f19f50120cd973750143fcaca)
++++ b/jpa-bank-entity/src/test/java/jpa/practice/AppTest.java	(date 1773126588730)
+@@ -3,14 +3,7 @@
+ import org.junit.jupiter.api.Test;
+ import static org.junit.jupiter.api.Assertions.assertTrue;
+ 
+-/**
+- * Unit test for simple App.
+- */
+-public class AppTest 
+-{
+-    /**
+-     * Rigorous Test :-)
+-     */
++public class AppTest {
+     @Test
+     public void testApp()
+     {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f95c20c0-d868-4390-96b9-9840ea9d437a\" name=\"변경\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/jpa-bank-entity/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/jpa-bank-entity/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice/entity/Account.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice/entity/Account.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 7\n}]]></component>\n  <component name=\"ProjectId\" id=\"3Ak4ADiSQr7JZGMYRQaegztT1S7\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"setting/create-entity-sjy\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"모듈\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240\" />\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"애플리케이션 수준\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\n      <changelist id=\"f95c20c0-d868-4390-96b9-9840ea9d437a\" name=\"변경\" comment=\"\" />\n      <created>1773123088573</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1773123088573</updated>\n      <workItem from=\"1773123089651\" duration=\"2216000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"github-copilot-workspace\">\n    <instructionFileLocations>\n      <option value=\".github/instructions\" />\n    </instructionFileLocations>\n    <promptFileLocations>\n      <option value=\".github/prompts\" />\n    </promptFileLocations>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c3f0169668b6f66f19f50120cd973750143fcaca)
++++ b/.idea/workspace.xml	(date 1773126588772)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f95c20c0-d868-4390-96b9-9840ea9d437a" name="변경" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/jpa-bank-entity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-bank-entity/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice/entity/Account.java" afterDir="false" />
+-    </list>
++    <list default="true" id="f95c20c0-d868-4390-96b9-9840ea9d437a" name="변경" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -27,8 +23,8 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "JUnit.AppTest.testApp.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "setting/create-entity-sjy",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -46,6 +42,29 @@
+       <recent name="$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice" />
+     </key>
+   </component>
++  <component name="RunManager">
++    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="jpa-bank-entity" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="jpa.practice.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="jpa.practice" />
++      <option name="MAIN_CLASS_NAME" value="jpa.practice.AppTest" />
++      <option name="METHOD_NAME" value="testApp" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.AppTest.testApp" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -62,7 +81,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1773123088573</updated>
+-      <workItem from="1773123089651" duration="2216000" />
++      <workItem from="1773123089651" duration="3277000" />
+     </task>
+     <servers />
+   </component>
