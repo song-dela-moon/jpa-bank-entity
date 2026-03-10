@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0532debe-b012-4b1b-a945-1152992a7fb4" name="변경" comment="" />
+    <list default="true" id="0532debe-b012-4b1b-a945-1152992a7fb4" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpa/practice/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpa/practice/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773121273163</updated>
       <workItem from="1773121274877" duration="431000" />
-      <workItem from="1773122748113" duration="399000" />
+      <workItem from="1773122748113" duration="938000" />
     </task>
     <servers />
   </component>
