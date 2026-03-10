@@ -34,11 +34,13 @@ public class Account {
     @Column(name = "Date_Opened", nullable = false)
     private LocalDate dateOpened;
 
+    //은행 중심의 entity 라서 계좌가 주인이 된다.
     @ManyToMany
-    @JoinTable(
+    @JoinTable( // 중간테이블 생성 어노테이션
         name = "Account_Customers",
-        joinColumns = @JoinColumn(name = "Account_id"),
-        inverseJoinColumns = @JoinColumn(name = "Customer_id")
-    )
+        joinColumns = @JoinColumn(name = "Account_id"), // 내 PK
+        inverseJoinColumns = @JoinColumn(name = "Customer_id") // 상대방 PK
+    ) // 실무에선 M:N 을 왠만하면 안만들려고하지만, 실제로 만든다고한다면 보통 직접 생성한다.
+    // (이 경우에는 'BranchEmployee' 처럼 다른 필드가 생성될 필요가 없어서 @JoinTable 를 사용함.)
     private List<Customer> customers = new ArrayList<>();
 }
