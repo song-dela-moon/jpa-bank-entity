@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95c20c0-d868-4390-96b9-9840ea9d437a" name="변경" comment="" />
+    <list default="true" id="e7a081f5-99a6-413d-af30-a34115bea7dc" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-bank-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-bank-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-bank-entity/src/main/resources/persistence.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +19,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="3Ak4ADiSQr7JZGMYRQaegztT1S7" />
+  <component name="ProjectId" id="3AkFELCWqSVGQKiyqdPWgRSuTWC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.AppTest.testApp.executor": "Run",
+    "JUnit.CompositeVsSurrogateTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/test-sjy",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -37,13 +43,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpa-bank-entity/src/main/java/jpa/practice" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompositeVsSurrogateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-bank-entity" />
       <extension name="coverage">
         <pattern>
@@ -52,16 +53,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jpa.practice" />
-      <option name="MAIN_CLASS_NAME" value="jpa.practice.AppTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="jpa.practice.CompositeVsSurrogateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testApp" />
+        <item itemvalue="JUnit.CompositeVsSurrogateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -76,12 +76,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="f95c20c0-d868-4390-96b9-9840ea9d437a" name="변경" comment="" />
-      <created>1773123088573</created>
+      <changelist id="e7a081f5-99a6-413d-af30-a34115bea7dc" name="변경" comment="" />
+      <created>1773128549025</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1773123088573</updated>
-      <workItem from="1773123089651" duration="3277000" />
+      <updated>1773128549025</updated>
+      <workItem from="1773128550123" duration="764000" />
     </task>
     <servers />
   </component>
